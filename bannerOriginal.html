@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design a BANNER using html and css</title>
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <style>
+
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: auto;
+        background-color:rgb(0, 0, 0);
+        padding: 200px;
+        grid-row-gap: 10px;
+        width:"100%";
+        justify-content: center;
+
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color:rgb(0, 0, 0);
+        width:"100%";
+        
+    }
+  
+    
+    
+    div{
+       
+      
+        background-color: rgb(10, 155, 240);
+        text-align: center;
+    }
+    .cols{
+        grid-column: 1/span3;
+      
+    }
+   
+    .rel{
+        position: relative;
+       
+        float:right;
+        right:20px;
+        top:10px;
+
+    }
+  
+  
+    </style>
+</head>
+<body>
+    <div class="gridcontainer">
+   
+        <div class="cols" style="background-color:rgb(0, 0, 0);padding: 30px;">
+            <i class="fa fa-child fa-5x" aria-hidden="true"style="color:white"></i>
+            <span style="color: red;font-size:70px;font-family: 'Anton', sans-serif;"><b>OBESITY</b></span><br>
+            <span style="color:white;font-size:40px;font-family: 'Anton', sans-serif;">CHILDHOOD STATISTICS<span>
+        </div>
+
+    <div style="background-color: orange;text-align:center;padding:20px;">
+        <i class="fa fa-child fa-4x" aria-hidden="true"></i>
+        <i class="fa fa-child fa-4x" aria-hidden="true"></i>
+        <i class="fa fa-child fa-4x" aria-hidden="true"style="color:tomato"></i><br>
+        <span style="font-size:30px;font-family: 'Anton', sans-serif;"><b>1 IN 3</b></span><br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Aperiam nihil repellat earum voluptate <span style="font-size:20px;font-family: 'Anton', sans-serif;"><b>obcaecati perspiciatis magnam</b></span> 
+        doloribus dolores sunt non, nobis atque possimus quam eveniet ipsam?Beatae enim quos quisquam.
+    </div>
+
+
+    <div style="background-color: rgb(10, 155, 240);text-align:center;padding:30px;">
+        An estimated<br>
+        <i class="fa fa-shopping-basket fa-4x" aria-hidden="true"></i>
+        <span style="font-size:30px;font-family: 'Anton', sans-serif;"><b>12.5 MILLION</b></span><br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Aperiam nihil repellat earum <span style="font-size:20px;font-family: 'Anton', sans-serif;"><b>obcaecati perspiciatis magnam</b></span>  doloribus dolores sunt non, 
+        nobis atque possimus quam eveniet ipsam?Beatae enim quos quisquam.
+    </div>
+    <div class="grid cols"style="width:100%;">
+        <div style="background-color:tomato;text-align:left;padding:30px">
+            <h1>consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit:</h1>thats the great deal Lorem ipsum dolor
+            sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+       <div style="background-color:tomato;">
+        <i class="fa fa-snapchat-square " aria-hidden="true"style="padding:60px 20px;vertical-align: text-top"><br>smoking</i>
+        <i class="fa fa-snapchat-square " aria-hidden="true"style="padding:60px 20px;vertical-align: text-top"><br>poverty</i>
+        <i class="fa fa-snapchat-square " aria-hidden="true"style="padding:60px 20px;vertical-align: text-top"><br>drinking</i></div>
+       <!-- <div style="background-color:tomato;grid-column:1/span2;text-align:left">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Deserunt fugiat id numquam sequi nisi recusandae quia nemo dolores 
+           voluptatum iste explicabo harum facere optio nulla, hic inventore asperiores, delectus perferendis?</div>
+           -->
+    </div>
+
+    <div class="grid cols"style="width:100%;">
+            <div style="background-color:rgb(10, 155, 240);text-align:left;padding:20px"><h2>HEADING OF LOREM IPSUM</h2><p>thats the great deal Lorem ipsum dolor
+                sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+                <div style="background-color:rgb(10, 155, 240);text-align:left;padding:20px"><p>thats the great deal Lorem ipsum dolor
+                    sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+                    <div style="background-color:rgb(10, 155, 240);text-align:left;padding:20px"><p>thats the great deal Lorem ipsum dolor
+                        sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+                        <div style="background-color:rgb(10, 155, 240);text-align:left;padding:20px"><p>thats the great deal Lorem ipsum dolor
+                            sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+           
+    </div>
+
+    <div style="background-color: tomato;text-align:center;padding:20px;vertical-align:text-bottom;">       
+        <span style="font-size:30px;font-family: 'Anton', sans-serif;"><b>12.5 MILLION</b></span><br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Aperiam nihil repellat earum <span style="font-size:20px;font-family: 'Anton', sans-serif;">obcaecati perspiciatis magnam</span>  doloribus dolores sunt non, 
+        nobis atque possimus quam eveniet ipsam?Beatae enim quos quisquam.<br>
+        <i class="fa fa-shopping-basket fa-4x" aria-hidden="true"></i></div>
+
+    <div style="background-color: orange; text-align:center;padding:20px;vertical-align:text-top;">
+        <i class="fa fa-shopping-basket fa-4x" aria-hidden="true"></i><br>
+        <span style="font-size:30px;font-family: 'Anton', sans-serif;"><b>12.5 MILLION</b></span><br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Aperiam nihil repellat earum <span style="font-size:20px;font-family: 'Anton', sans-serif;">obcaecati perspiciatis magnam</span>  doloribus dolores sunt non, 
+        nobis atque possimus quam eveniet ipsam?Beatae enim quos quisquam.</div>
+
+    
+
+    <div class="grid cols">
+            <div><h1>10%-20% DOODLERS</h1>thats the great deal Lorem ipsum dolor
+                 sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Illum dolor voluptate repellat debitis esse labore,
+                 ab in laborum error sunt facere quo laboriosam officiis consequuntur.
+                 Debitis soluta voluptatum delectus qui! Lorem ipsum dolor sit amet  ad sed velit dignissimos?</div>
+            <div><i class="fa fa-television fa-5x" aria-hidden="true"style="padding:30px"></i></div>
+    </div>
+
+    <div class="grid cols">
+        <div style="background-color:orange;"><h1>10%-20% DOODLERS</h1>thats the great deal Lorem ipsum dolor
+            sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Illum dolor voluptate repellat debitis esse labore,
+            ab in laborum error sunt facere quo laboriosam officiis consequuntur.
+            Debitis soluta voluptatum delectus qui! Lorem dignissimos?</div>
+       <div style="background-color:orange;"><i class="fa fa-television fa-5x" aria-hidden="true"style="padding:30px"></i></div>
+    </div>
+
+    <div style="background-color:rgb(10, 155, 240);text-align:center;padding:20px;">
+        An estimated<br>
+        <i class="fa fa-shopping-basket fa-4x" aria-hidden="true"></i>
+        <span style="font-size:30px;font-family: 'Anton', sans-serif;"><b>12.5 MILLION</b></span><br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Aperiam nihil repellat earum <span style="font-size:20px;font-family: 'Anton', sans-serif;">obcaecati perspiciatis magnam</span>  doloribus dolores sunt non, 
+        nobis atque possimus quam eveniet ipsam?Beatae enim quos quisquam.</div>
+
+    <div style="background-color:tomato;text-align:center;padding:20px;">
+        An estimated<br>
+        <i class="fa fa-shopping-basket fa-4x" aria-hidden="true"></i>
+        <span style="font-size:30px;font-family: 'Anton', sans-serif;"><b>12.5 MILLION</b></span><br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Aperiam nihil repellat earum <span style="font-size:20px;font-family: 'Anton', sans-serif;">obcaecati perspiciatis magnam</span>  doloribus dolores sunt non, 
+        nobis atque possimus quam eveniet ipsam?Beatae enim quos quisquam.</div>
+    
+</div>
+</body>
+</html>
